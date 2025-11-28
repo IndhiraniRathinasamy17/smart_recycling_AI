@@ -1,0 +1,13 @@
+train: C:/Users/indhi/smart_recycling_AI/ml_model/dataset/images/train
+val: C:/Users/indhi/smart_recycling_AI/ml_model/dataset/images/val
+test:  C:/Users/indhi/smart_recycling_AI/ml_model/dataset/images/test
+
+nc: 7
+names: ['e-waste', 'glass', 'metal', 'organic', 'paper', 'plastic', 'textile']
+
+roboflow:
+  workspace: smartrecyclingai
+  project: smart_recycling_ai_project-q4qqx
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/smartrecyclingai/smart_recycling_ai_project-q4qqx/dataset/1
