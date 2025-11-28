@@ -1,0 +1,68 @@
+/* Make sidebar fixed on the left */
+.sidebar-container {
+  width: 250px;
+  height: 100vh;
+  background-color: #0b1623;
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+
+  position: fixed;     /* ⭐ Sidebar stays fixed */
+  top: 0;
+  left: 0;
+
+  overflow-y: auto;     /* Scroll only inside sidebar if needed */
+  z-index: 1000;        /* Stay ABOVE input bar */
+}
+
+/* Top section */
+.sidebar-top {
+  margin-bottom: 20px;
+}
+
+.sidebar-title {
+  margin: 0 0 15px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.new-chat-btn {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  background: #007bff;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}
+
+/* History section */
+.sidebar-history {
+  margin-top: 20px;
+}
+
+.history-title {
+  font-size: 18px;
+  border-bottom: 1px solid #444;
+  padding-bottom: 5px;
+}
+
+.history-item {
+  list-style: none;
+  padding: 10px;
+  background: #1c2b3a;
+  margin: 10px 0;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.history-item:hover {
+  background: #243345;
+}
+
+.history-icon {
+  margin-right: 10px;
+}

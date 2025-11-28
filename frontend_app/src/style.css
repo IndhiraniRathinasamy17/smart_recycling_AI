@@ -1,0 +1,109 @@
+/* body {
+    font-family: Arial, sans-serif;
+    background: #eef7ee;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+input {
+    padding: 10px;
+    width: 80%;
+    margin-top: 10px;
+} */
+
+
+
+
+.app-container {
+  display: flex;
+  height: 100vh;
+  background: #f8f8f8;
+}
+
+.sidebar {
+  width: 260px;
+  background: #111;
+  color: white;
+  padding: 20px;
+}
+
+.new-chat-btn {
+  background: white;
+  color: black;
+  padding: 10px;
+  width: 100%;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.history-title {
+  margin-top: 20px;
+  color: #aaa;
+}
+
+.history-item {
+  padding: 8px;
+  margin: 5px 0;
+  background: #222;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.chat-window {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-scroll {
+  flex: 1;
+  padding: 20px;
+  overflow-y: scroll;
+}
+
+.bubble {
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  max-width: 60%;
+}
+
+.bubble-user {
+  background: #0078ff;
+  color: white;
+  margin-left: auto;
+}
+
+.bubble-ai {
+  background: #e6e6e6;
+  color: black;
+}
+
+.input-bar {
+  display: flex;
+  padding: 10px;
+  background: #fff;
+}
+
+.input-bar input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  margin-left: 10px;
+}
