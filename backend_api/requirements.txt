@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+pymongo
+dnspython
+python-multipart
+pydantic
+pydub
